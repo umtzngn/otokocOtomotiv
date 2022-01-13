@@ -13,12 +13,15 @@ Giriş yapma işlemini simüle etmek için giriş yap linki bulunmaktadır. Bu l
 
 Bu projede
 
--[Redux](https://redux.js.org/introduction/getting-started)
--[Yup](https://www.npmjs.com/package/yup)
--[Formik](https://formik.org/)
--[Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+[Redux](https://redux.js.org/introduction/getting-started)
 
--[React Json Server](https://www.npmjs.com/package/json-server)
+[Yup](https://www.npmjs.com/package/yup)
+
+[Formik](https://formik.org/)
+
+[Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+
+[React Json Server](https://www.npmjs.com/package/json-server)
 
 kütüphanelerinin temel yapıları kullanılmıştır.
 
