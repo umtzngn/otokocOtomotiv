@@ -17,6 +17,7 @@ Bu projede
 -[Yup](https://www.npmjs.com/package/yup)
 -[Formik](https://formik.org/)
 -[Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+
 -[React Json Server](https://www.npmjs.com/package/json-server)
 
 kütüphanelerinin temel yapıları kullanılmıştır.
