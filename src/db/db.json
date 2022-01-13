@@ -1,0 +1,155 @@
+{
+    "categories": [
+        {
+          "id": 1,
+          "name": "Marka 1"
+          
+        },
+        {
+          "id": 2,
+          "name": "Marka 2"
+        },
+        {
+            "id": 3,
+            "name": "Marka 3"
+          }
+    ],
+    "models": [
+      {
+        "id": 1,
+        "model": "Model 1"
+        
+      },
+      {
+        "id": 2,
+        "model": "Model 2"
+      },
+      {
+          "id": 3,
+          "model": "Model 3"
+        }
+  ],
+
+    "products" : [
+        {
+          "id":1,
+          "markaId": 1,
+          "modelId": 3,
+          "parcaNo": 10009437,
+          "parcaAdı": "Balata",
+          "tutar": 160
+        },
+        {
+            "id":2,
+            "markaId": 2,
+            "modelId": 1,
+            "parcaNo": 10009438,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":3,
+            "markaId": 3,
+            "modelId": 3,
+            "parcaNo": 10009439,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":4,
+            "markaId": 1,
+            "modelId": 2,
+            "parcaNo": 10009440,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":5,
+            "markaId": 3,
+            "modelId": 2,
+            "parcaNo": 10009441,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":6,
+            "markaId": 2,
+            "modelId": 3,
+            "parcaNo": 10009442,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":7,
+            "markaId": 3,
+            "modelId": 3,
+            "parcaNo": 10009443,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":8,
+            "markaId": 2,
+            "modelId": 1,
+            "parcaNo": 10009444,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":9,
+            "markaId": 1,
+            "modelId": 3,
+            "parcaNo": 10009445,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":10,
+            "markaId": 1,
+            "modelId": 2,
+            "parcaNo": 10009446,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":11,
+            "markaId": 3,
+            "modelId": 3,
+            "parcaNo": 10009447,
+            "parcaAdı": "Balata",
+            "tutar": 160
+          },
+          {
+            "id":12,
+            "markaId": 2,
+            "modelId": 3,
+            "parcaNo": 10009448,
+            "parcaAdı": "Firen Diski",
+            "tutar": 160
+          },
+          {
+            "id":13,
+            "markaId": 3,
+            "modelId": 1,
+            "parcaNo": 10009449,
+            "parcaAdı": "Firen Diski",
+            "tutar": 160
+          },
+          {
+            "id":14,
+            "markaId": 1,
+            "modelId": 1,
+            "parcaNo": 10009450,
+            "parcaAdı": "Firen Diski",
+            "tutar": 160
+          },
+          {
+            "id":15,
+            "markaId": 2,
+            "modelId": 3,
+            "parcaNo": 10009451,
+            "parcaAdı": "Conta",
+            "tutar": 160
+          }       
+      ]
+}
