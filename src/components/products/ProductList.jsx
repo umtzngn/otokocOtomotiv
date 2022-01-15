@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Badge, Table, CardImg, Card, Button } from "reactstrap";
+import { Badge, Table, CardImg, Card, Button, Form } from "reactstrap";
 import { bindActionCreators } from "redux";
 import * as productActions from "../../redux/actions/productActions";
 import * as cartActions from "../../redux/actions/cartActions";
@@ -11,19 +11,24 @@ class ProductList extends Component {
     this.props.actions.getProducts();
   }
 
-    state = { adet: "" };
+  state = { adet: 1 };
 
   onSubmitHandler = (event) => {
     event.preventDefault();
-    this.setState({adet:event.target.value})
+    this.setState({ adet: parseInt(event.target.value) });
   };
+
+
+  // onSubmitHandlerAdet = (product) => {
+  //   product.preventDefault();
+  //   this.addToCart(product);
+  // };
 
 
   addToCart = (product) => {
     this.props.actions.addToCart({ quantity: this.state.adet, product });
     alertify.success(product.parcaNo + "sepete eklendi");
   };
-
 
 
 
@@ -71,6 +76,7 @@ class ProductList extends Component {
                       onChange={this.onSubmitHandler}
                     ></input>
                   </td>
+
                   <td>
                     <Button
                       color="success"
@@ -93,7 +99,7 @@ function mapStateToProps(state) {
   return {
     currentCategory: state.changeCategoryReducer,
     currentModel: state.changeModelReducer,
-    products: state.productListReducer
+    products: state.productListReducer,
   };
 }
 
@@ -101,7 +107,7 @@ function mapDispatchToProps(dispatch) {
   return {
     actions: {
       getProducts: bindActionCreators(productActions.getProducts, dispatch),
-      addToCart: bindActionCreators(cartActions.addToCart, dispatch)
+      addToCart: bindActionCreators(cartActions.addToCart, dispatch),
     },
   };
 }
