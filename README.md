@@ -1,3 +1,76 @@
+# OtokocOtomotiv
+
+Bu proje otokoc otomotiv yedek parça bulmalarını ve satın almalarını sağlamalarını simüle etmiştir. 
+
+Proje için veri kaynağı olarak bir json dosyası oluşturulmuştur ve api vasıtası ile bu veriler kullanılmıştır.
+
+Marka ve model olarak filtreleme işlemini gerçekleştirilebilir. Bunun yanında parça numaraları ile arama yapılarak da filtreleme işlemine imkan sağlanmaktadır.
+
+Sepette herhangi bir yok ise sepet menüsü gizli olarak tutulmaktadır.Sepete ekleme yapıldıktan sonra sepet özeti ve sepet detayına gitmek için bir sepete git linki bulunmaktadır.
+
+Giriş yapma işlemini simüle etmek için giriş yap linki bulunmaktadır. Bu link yolu ile login formuna erişim sağlanmaktadır. 
+
+
+Bu projede
+
+[Redux](https://redux.js.org/introduction/getting-started)
+
+[Yup](https://www.npmjs.com/package/yup)
+
+[Formik](https://formik.org/)
+
+[Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+
+[React Json Server](https://www.npmjs.com/package/json-server)
+
+kütüphanelerinin temel yapıları kullanılmıştır.
+
+
+
+
+# Görseller
+---
+
+## Anasayfa
+
+<img src="https://user-images.githubusercontent.com/51531604/149343630-617410e3-3dfa-4af6-b609-77f6d2ca1912.PNG" width=50% height=50%>
+
+## Filtreleme
+
+
+<img src="https://user-images.githubusercontent.com/51531604/149347482-e59477f1-b2cf-416f-aaab-2f3293f400f6.PNG" width=50% height=50%>
+
+---
+
+<img src="https://user-images.githubusercontent.com/51531604/149347487-01e46e31-471a-4785-9641-c57331e686eb.PNG" width=50% height=50%>
+
+---
+
+<img src="https://user-images.githubusercontent.com/51531604/149347489-291ada26-c5ec-4d38-84f5-a0f6e389ec9c.PNG" width=50% height=50%>
+
+
+
+## Sepet ve Ürün Ekleme
+
+<img src="https://user-images.githubusercontent.com/51531604/149347808-41a13bde-2bc3-4f3a-b254-3771b545b41e.png" width=50% height=50%>
+
+---
+
+<img src="https://user-images.githubusercontent.com/51531604/149347806-cffb0f43-ebd6-4cf5-a95e-855efa520b3e.png" width=50% height=50%>
+
+---
+
+
+<img src="https://user-images.githubusercontent.com/51531604/149347811-98fd4b29-80e3-4ea9-b759-d4da2965fadb.PNG" width=50% height=50%>
+
+
+
+## Login
+
+<img src="https://user-images.githubusercontent.com/51531604/149348204-b8bc6dea-53e9-46f0-9707-6653cb49db5b.PNG" width=50% height=50%>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
